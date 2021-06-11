@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:#dbe9f4;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color:#FF69B4 ;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+
+
+<style>
+body
+{
+background-image: url("file:///C:/Documents%20and%20Settings/VAIBHAV.ABC-B59AEAAF730/Desktop/New%20Folder%20(2)/books-collections-data-desk-1018136.jpg");
+background-repeat:no-repeat;
+background-size:1025px;
+
+} 
+</style>
+<title>BOOKS STORE</title>
+</head>
+
+
+<body>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="file:///C:/Documents%20and%20Settings/VAIBHAV.ABC-B59AEAAF730/Desktop/html/aboutus.htm" target="_blank">About Us</a>
+  <a href="file:///C:/Documents%20and%20Settings/VAIBHAV.ABC-B59AEAAF730/Desktop/html/ourmotto.htm" target="_blank">Our Motto</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+
+
+<span style="font-size:27px;cursor:pointer;" onclick="openNav()">&#9776; OPEN</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+
+
+
+
+<center><b><h1 style="font-family:algerian;color:#FF69B4">WELCOME TO HappyReaders</b></h1></center>
+<hr>
+
+<h3 style="text-align:center;font-family:algerian">To get started, Sign Up !</h3>
+
+<div style="text-align:center;font-family:Gill Sans MT"><b>
+<form action="file:///C:/Documents%20and%20Settings/VAIBHAV.ABC-B59AEAAF730/Desktop/html/category.htm" target="_blank">
+First Name<br><input type="text" name="fname">
+<br>
+Last Name<br><input type="text" name="lname"><br>
+Email<br><input type="text" name="email"><br>
+Password<br><input type="password" name="pass">
+<br>
+Sign Up<br><input type="submit" name="submit" value="submit">
+</B></form>
+</div>
+</body>
+</html>
